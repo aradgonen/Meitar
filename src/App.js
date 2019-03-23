@@ -28,7 +28,7 @@ class App extends Component {
   }
 
   onSetSidebarOpen(open) {
-    this.setState({ sidebarOpen: open });
+    this.setState({ sidebarOpen: open, sidebarDocked: open });
   }
 
   mediaQueryChanged() {
@@ -45,7 +45,10 @@ class App extends Component {
           onSetOpen={this.onSetSidebarOpen}
           pullRight={this.state.pullRight}
         >
-          <Maintext />
+          <Maintext
+            onSetSidebarOpen={this.onSetSidebarOpen}
+            sidebarDocked={this.state.sidebarDocked}
+          />
         </Sidebar>
       </div>
     );

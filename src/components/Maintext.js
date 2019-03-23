@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
+import menuLogo from "../Images/menu.png";
 class MainText extends Component {
   render() {
     return (
       <div>
         <Card className="text-center">
-          <Card.Header>מ.י.ת.ר המכון הישראלי לתראפיות</Card.Header>
+          <Card.Header className="text-right">
+            {" "}
+            <button
+              onClick={() =>
+                this.props.onSetSidebarOpen(!this.props.sidebarDocked)
+              }
+            >
+              <img src={menuLogo} />
+            </button>
+            מ.י.ת.ר המכון הישראלי לתראפיות
+          </Card.Header>
           <Card.Body>
             <Card.Title>
               לחץ? התלבטות? בלבול? דכאון? בדידות? חרדה? זעם? מי לא חווה רגשות
