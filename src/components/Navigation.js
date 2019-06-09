@@ -6,7 +6,11 @@ import inspection from "../Images/MainMenu/inspection.png";
 import dictionary from "../Images/MainMenu/dictionary.png";
 import homePage from "../Images/MainMenu/HomePage.png";
 import contact from "../Images/MainMenu/contact.png";
+
 class Navigation extends Component {
+  handleClick(destination){
+    
+  }
   render() {
     return (
       <div>
@@ -21,47 +25,7 @@ class Navigation extends Component {
             />
           </tr>
           <tr>
-            <a className="dropdown-item text-right">
-              אודות
-              <img
-                src={logoAbout}
-                width="75"
-                height="75"
-                className="App-logo"
-                alt="logo"
-              />
-            </a>
-            <a className="dropdown-item text-right">
-              תחומי טיפול
-              <img
-                src={therapyFields}
-                width="75"
-                height="75"
-                className="App-logo"
-                alt="logo"
-              />
-            </a>
-            <a className="dropdown-item text-right">
-              אבחונים
-              <img
-                src={inspection}
-                width="75"
-                height="75"
-                className="App-logo"
-                alt="logo"
-              />
-            </a>
-            <a className="dropdown-item text-right">
-              מילון מונחים
-              <img
-                src={dictionary}
-                width="75"
-                height="75"
-                className="App-logo"
-                alt="logo"
-              />
-            </a>
-            <a className="dropdown-item text-right">
+          <a className="dropdown-item text-right" href='/'>
               דף הבית
               <img
                 src={homePage}
@@ -71,7 +35,48 @@ class Navigation extends Component {
                 alt="logo"
               />
             </a>
-            <a className="dropdown-item text-right">
+            <a className="dropdown-item text-right" href='/about'>
+              אודות
+              <img
+                src={logoAbout}
+                width="75"
+                height="75"
+                className="App-logo"
+                alt="logo"
+              />
+            </a>
+            <a className="dropdown-item text-right" href='/fields'>
+              תחומי טיפול
+              <img
+                src={therapyFields}
+                width="75"
+                height="75"
+                className="App-logo"
+                alt="logo"
+              />
+            </a>
+            <a className="dropdown-item text-right" href='inspect'>
+              אבחונים
+              <img
+                src={inspection}
+                width="75"
+                height="75"
+                className="App-logo"
+                alt="logo"
+              />
+            </a>
+            <a className="dropdown-item text-right" href='/glossary'>
+              מילון מונחים
+              <img
+                src={dictionary}
+                width="75"
+                height="75"
+                className="App-logo"
+                alt="logo"
+              />
+            </a>
+
+            <a className="dropdown-item text-right" href='/contact'>
               צור קשר
               <img
                 src={contact}

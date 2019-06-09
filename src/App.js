@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
 import Maintext from "./components/Maintext";
+import Fields from "./components/Fields";
+import Inspection from "./components/Inspections";
+import Glossary from "./components/Glossary";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
 import Sidebar from "react-sidebar";
-
+import {BrowserRouter as Router, Route } from 'react-router-dom';
+import Inspections from "./components/Inspections";
+import { withRouter } from 'react-router-dom'
 const mql = window.matchMedia(`(min-width: 800px)`);
 
 class App extends Component {
@@ -45,10 +52,57 @@ class App extends Component {
           onSetOpen={this.onSetSidebarOpen}
           pullRight={this.state.pullRight}
         >
-          <Maintext
+          <Router>
+          <Route exact path='/' component={()=>{
+            return(
+              <Maintext
             onSetSidebarOpen={this.onSetSidebarOpen}
             sidebarDocked={this.state.sidebarDocked}
           />
+            )
+          }}/>
+          <Route exact path='/about' component={()=>{
+            return(
+              <About
+            onSetSidebarOpen={this.onSetSidebarOpen}
+            sidebarDocked={this.state.sidebarDocked}
+          />
+            )
+          }}/>
+                    <Route exact path='/fields' component={()=>{
+            return(
+              <Fields
+            onSetSidebarOpen={this.onSetSidebarOpen}
+            sidebarDocked={this.state.sidebarDocked}
+          />
+            )
+          }}/>
+                    <Route exact path='/inspect' component={()=>{
+            return(
+              <Inspections
+            onSetSidebarOpen={this.onSetSidebarOpen}
+            sidebarDocked={this.state.sidebarDocked}
+          />
+            )
+          }}/>
+                    <Route exact path='/glossary' component={()=>{
+            return(
+              <Glossary
+            onSetSidebarOpen={this.onSetSidebarOpen}
+            sidebarDocked={this.state.sidebarDocked}
+          />
+            )
+          }}/>
+                    <Route exact path='/contact' component={()=>{
+            return(
+              <Contact
+            onSetSidebarOpen={this.onSetSidebarOpen}
+            sidebarDocked={this.state.sidebarDocked}
+          />
+            )
+          }}/>
+
+          </Router>
         </Sidebar>
       </div>
     );
