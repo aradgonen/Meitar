@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Meitar/precache-manifest.d887e1f4bc201183a5c97342b2ded1fd.js"
+  "/Meitar/precache-manifest.9f1ea7d9cfa333d09ea739231b5628b0.js"
 );
 
 workbox.clientsClaim();
