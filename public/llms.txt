@@ -1,0 +1,40 @@
+# מ.י.ת.ר - המכון הישראלי לתראפיות
+# M.E.I.T.A.R - The Israeli Institute for Therapies
+
+> מכון רב תחומי ליעוץ וטיפול במבוגרים, מתבגרים וילדים
+> A multi-disciplinary institute for counseling and therapy for adults, adolescents, and children
+
+## About
+M.E.I.T.A.R. is a private, multi-disciplinary therapy institute located in Kiryat Bialik, Israel. The institute provides psychological assessment, counseling, and therapy for adults, adolescents, and children dealing with various adjustment and functioning difficulties.
+
+## Services
+- Psychological Assessment (אבחון פסיכולוגי): Psychodiagnostic and psychodidactic assessments for children
+- Psychotherapy (פסיכותראפיה): Individual, couples, family, dyadic, and group therapy
+- Expressive & Creative Therapy (טיפול בהבעה ויצירה): Art therapy, movement therapy, drama therapy, bibliotherapy
+- Family Therapy (טיפול משפחתי): Systemic family and couples therapy
+- Group Therapy (טיפול קבוצתי): Group psychotherapy and support groups
+- Occupational Therapy (ריפוי בעיסוק): Developmental occupational therapy for children
+- Speech Therapy (קלינאות תקשורת): Developmental speech therapy for children
+- Parent Guidance (הדרכת הורים): Parallel to children's emotional therapy
+
+## Professional Team
+Led by professional directors Gabi Gerzi (clinical social worker and psychotherapist, 37 years experience) and Beatrice Gonen (art therapist and psychotherapist, 25 years experience). All staff are licensed by the Israeli Ministry of Health.
+
+## Contact
+- Address: Ben Gurion Boulevard 63, 6th Floor, Kiryat Bialik, Israel
+- Phone: 04-8727627
+- Fax: 1534-6010520
+- Email: m.meitar@gmail.com
+
+## Insurance
+The institute accepts treatment through insurance companies and health fund supplementary insurance plans.
+
+## Pages
+- Homepage: /
+- About: /about
+- Diagnostics: /diagnostics
+- Treatments: /treatments
+- Contact: /contact
+- Glossary: /glossary
+- News: /news
+- Careers: /careers
